@@ -5,5 +5,5 @@ In this project You can find how read data from DB which has two tables in relat
   - Create data CreateRepositoryImpl.java - batchupdate(sql, BatchPreparedStatementSetter) using JdbcTemplate
   
   Still to do:
-   - update
-   - delete
+   - update(comming soon)
+   - delete(commin soon)
