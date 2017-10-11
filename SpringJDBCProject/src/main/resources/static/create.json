@@ -1,0 +1,32 @@
+{
+       
+        "name": "BARBADOS",
+        "number": 3,
+        "place": "Warsaw",
+        "modelMany": [
+            {
+               
+                "nameOne": "TestData",
+                "nameTwo": "TEstData",
+                "nameThree": "YNameThree",
+                "number": 22
+              
+            },
+            {
+              
+                "nameOne": "XnameOne",
+                "nameTwo": "YNameTwo",
+                "nameThree": "YNameThree",
+                "number": 22
+               
+            },
+            {
+               
+                "nameOne": "nameOne",
+                "nameTwo": "NameTwo",
+                "nameThree": "NameThree",
+                "number": 44
+              
+            }
+        ]
+    }
