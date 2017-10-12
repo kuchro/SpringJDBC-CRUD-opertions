@@ -11,4 +11,7 @@ public class StaticData {
 			+ "INSERT INTO model_many(name_one,name_two,name_three,number_many,model_one_id) VALUES (?,?,?,?,(SELECT id FROM rows))";;
 
 	public static final String sCreateJustModelOne ="INSERT INTO model_one(name,number_one,place) VALUES(?,?,?)";
+	
+	public static final String sUpdateOneObject = "UPDATE model_one SET name=?,number_one=?,place=? WHERE id=?";
+	public static final String sUpdateModelMany = "UPDATE model_many SET name_one=?,name_two=?,name_three=?,number_many=? WHERE id=?";
 }
